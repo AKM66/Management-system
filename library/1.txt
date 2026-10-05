@@ -1,0 +1,53 @@
+com.southwind
+├── LibSpringbootApplication.java  // 启动类
+├── configuration  // 配置类
+│   └── PageConfiguration.java  // 分页插件配置
+├── controller  // 控制器层
+│   ├── LoginController.java  // 登录控制器
+│   ├── BookController.java  // 图书控制器
+│   ├── BorrowController.java  // 借阅控制器
+│   ├── BackController.java  // 还书控制器
+│   ├── UserController.java  // 用户控制器
+│   ├── AdminController.java  // 管理员控制器
+│   ├── SysadminController.java  // 系统管理员控制器
+│   ├── SortController.java  // 分类控制器
+│   ├── BorrowRecordController.java  // 借阅记录控制器
+│   └── RedirectController.java  // 重定向控制器
+├── service  // 业务逻辑层接口
+│   ├── LoginService.java
+│   ├── BookService.java
+│   ├── BorrowService.java
+│   ├── BackService.java
+│   ├── UserService.java
+│   ├── AdminService.java
+│   ├── SysadminService.java
+│   ├── SortService.java
+│   └── BorrowRecordService.java
+├── service.impl  // 业务逻辑层实现
+│   └── （对应上述接口的实现类）
+├── mapper  // 数据访问层接口
+│   ├── UserMapper.java
+│   ├── BookMapper.java
+│   ├── BorrowMapper.java
+│   └── （其他Mapper接口）
+├── entity  // 实体类
+│   ├── User.java
+│   ├── Admin.java
+│   ├── Sysadmin.java
+│   ├── Book.java
+│   ├── Sort.java
+│   ├── Borrow.java
+│   ├── Back.java
+│   └── BorrowRecord.java
+├── vo  // 视图对象
+│   ├── BookVO.java
+│   ├── BorrowVO.java
+│   ├── BackVO.java
+│   ├── AdminBorrowVO.java
+│   └── PageVO.java
+├── form  // 表单对象
+│   └── LoginForm.java
+├── result  // 结果封装
+│   └── LoginResult.java
+└── handler  // 处理器
+    └── MyMetaObjectHandler.java  // 自动填充处理器

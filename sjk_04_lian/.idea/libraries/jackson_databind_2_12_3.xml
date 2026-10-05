@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="jackson-databind-2.12.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/jackson-databind-2.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-beans-5.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/hibernate-core-5.4.32.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-boot-autoconfigure-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-core-5.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-context-5.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-data-jpa-2.5.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-web-5.3.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../shixun25/lib/spring-webmvc-5.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
